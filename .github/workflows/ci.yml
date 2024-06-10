@@ -5,8 +5,8 @@ on:
     branches: [main]
 
 jobs: 
-  tests:
-    name: Tests
+  format:
+    name: Style check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
