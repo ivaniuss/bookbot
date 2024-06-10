@@ -1,0 +1,15 @@
+[MASTER]
+ignore=venv, books
+
+[MESSAGES CONTROL]
+disable=C0304, C0114, C0116
+ 
+[FORMAT]
+max-line-length=100
+
+[REPORTS]
+output-format = colorized
+reports = no
+
+[LOGGING]
+logging-modules=logging
