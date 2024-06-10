@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Instala las dependencias de tu aplicación
-RUN pip install --no-cache-dir -r requirements.txt
+RUN test -e requirements.txt && pip install --no-cache-dir -r requirements.txt || true
 
 # Define el comando por defecto para ejecutar tu aplicación cuando se inicie el contenedor
 CMD ["python", "main.py"]
