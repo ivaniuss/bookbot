@@ -11,4 +11,4 @@ COPY . /app
 RUN test -e requirements.txt && pip install --no-cache-dir -r requirements.txt || true
 
 # Define el comando por defecto para ejecutar tu aplicación cuando se inicie el contenedor
-CMD ["python", "main.py"]
+CMD ["python", "./src/main.py"]
