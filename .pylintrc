@@ -1,6 +1,6 @@
 [MASTER]
 init-hook='import sys; sys.path.append("src")'
-ignore=venv, books
+ignore=venv, books, tests/__pycache__
 
 [MESSAGES CONTROL]
 disable=C0304, C0114, C0116, C0115, E0401
