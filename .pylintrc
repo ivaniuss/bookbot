@@ -2,7 +2,7 @@
 ignore=venv, books
 
 [MESSAGES CONTROL]
-disable=C0304, C0114, C0116, C0115
+disable=C0304, C0114, C0116, C0115, E0401
  
 [FORMAT]
 max-line-length=100
